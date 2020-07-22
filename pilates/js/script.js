@@ -46,7 +46,8 @@ let mySlider = new Swiper(priceSlider, {
     // when window width is >= 640px
     850: {
       slidesPerView: 3,
-      spaceBetween: 30
+      spaceBetween: 30,
+
     }
   }
 });
@@ -54,8 +55,6 @@ let mySlider = new Swiper(priceSlider, {
 let Slider = new Swiper(comentSlider, {
   wrapperClass: 'slider-wrap',
   slideClass:'slider-slide',
-  height:500,
-  slidesPerView: 1,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -69,7 +68,6 @@ let Slider = new Swiper(comentSlider, {
 new fullpage('#fullpage', {
 	//options here
   navigation:true,
-  // avigationTooltips: ['Page 1', 'Page 2','Page 3','Page 4','Page 5','Page 6']
   scrollOverflow: true,
   css3: true
 });
