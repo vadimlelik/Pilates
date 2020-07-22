@@ -10,6 +10,7 @@ lerna-debug.log*
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
 # Runtime data
+
 pids
 *.pid
 *.seed
@@ -102,3 +103,5 @@ dist
 
 # TernJS port file
 .tern-port
+
+\#src 
